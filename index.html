@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div id="container">
+        <h1>Scoreboard</h1>
+        <div id="score">
+                <div id="child">
+                <p>Team #1 Score: <span id="score-el">0</span>
+                <br>
+                <br>
+                <button id="add1-el" onclick="add1()">+1</button>
+                <button id="add2-el" onclick="add2()">+2</button>
+                <button id="add3-el" onclick="add3()">+3</button>
+                <br>
+                </div>
+                <div id="child">
+                <p> Team #2 Score: <span id="score-el-2">0</span>
+                <br>
+                <br>
+                <button id="add1-el-1" onclick="add1team2()">+1</button>
+                <button id="add2-el-2" onclick="add2team2()">+2</button>
+                <button id="add3-el-3" onclick="add3team2()">+3</button>
+                <br>
+                </div>
+        </div>
+            <p>Match history: <span id="hist-el"></span></p>
+            <button id="save-el" onclick="save()">Save</button>
+            <button id="reset-el" onclick="reset()">Reset</button>
+    </div>
+    <script src="index.js"></script>
+    </body>
+</html>
