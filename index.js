@@ -52,7 +52,7 @@ function save() {
     historyEl.textContent += count + ":" + countteam2 + ", "
     alert(`Congratlations ${count > countteam2 ? "Team 1" : count < countteam2 ? "Team 2" : "Draw"}!`)
     confetti()
-    reset()
+    
 }
 
 function confetti() {
